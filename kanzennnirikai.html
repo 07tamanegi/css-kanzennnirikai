@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS完全に理解</title>
+    <style>
+        .box_button{
+            position: relative;
+            border: 2px solid black;
+            border-radius: 5px;
+            width: 140px;
+            height: 65px;
+        }
+        .box_button:hover{
+            background-color: rgb(0, 255, 0);
+            text-decoration: underline;
+        }
+        .text_button{
+            color: rgb(255, 0, 0);
+            margin-left: 50px;
+            margin-top: 5px;
+            white-space: nowrap;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button class="box_button">
+            <a class="text_button" href="https://developer.mozilla.org/ja/docs/Web/CSS">
+                CSS<br>完全に理解してますか？
+            </a>
+        </button>
+    </div>
+</body>
+</html>
